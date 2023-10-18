@@ -1,5 +1,5 @@
 # amerenimport
-Imports bill data from ameren "bill is ready" email
+Imports bill data from ameren "bill is ready" email to Google Sheets
 
 Uses email filter to tag Ameren's "Your Ameren Missouri Bill is Ready" emails with "Imports/AmerenImports"
 
