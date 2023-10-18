@@ -12,3 +12,7 @@ Requirements:
 - label: "Imports/Imported"
 - email filter: subject:(Your Ameren Missouri Bill is Ready) | Do this: Apply label "Imports/AmerenImports"
 - sheet: "AmerenImports"
+
+Credit:
+- pointNclick - for the methodology on improrting email information
+- link: https://stackoverflow.com/a/32897768
