@@ -1,4 +1,4 @@
-function importdata() {
+function importAmerenData() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("AmerenImport")
 
   //sheet.clear();
@@ -18,7 +18,6 @@ function importdata() {
       var duedate = splitMsg2[1].slice(0,10);
       var data = [[duedate.trim(),"$"+splitMsg[8].trim()]];
 
-      //sheet.AppendRow([msg,dat])
       sheet.getRange(sheet.getLastRow()+1,1,data.length, data[0].length).setValues(data);
     }
     threads[i].removeLabel(label);
